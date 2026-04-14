@@ -96,6 +96,29 @@ section{padding:20px 12px}
   body{padding-bottom:80px}
 }
 
+
+
+/* ===== تحسينات احترافية للموبايل ===== */
+@media (max-width:768px){
+  .product-page{grid-template-columns:1fr !important;gap:14px}
+  .swiper-wrap{aspect-ratio:4/5 !important;border-radius:14px}
+  .prod-name{font-size:18px}
+  .prod-price{font-size:22px}
+  .prod-add-btn{
+    position:fixed;
+    bottom:10px;
+    left:10px;
+    right:10px;
+    border-radius:12px;
+    z-index:999;
+  }
+  body{padding-bottom:80px}
+  nav{padding:10px 12px}
+}
+
+/* تحسين الأداء */
+img{loading:lazy}
+
 </style>
 </head>
 
